@@ -1,40 +1,4 @@
-/* .content-wrapper form input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-} */
-
-/* .content-wrapper form button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-}
- */
-
- .content-wrapper form input[type=search],
- .content-wrapper div select {
-    padding: 5px;
-    font-size: 14px;
-    border: 1px solid grey;
-    float: left;
-    width: 90%;
-}
-.content-wrapper form button{
-    float: left;
-    width: 10%;
-    padding: 5px;
-    font-size: 17px;
-    border: 1px solid grey;
-    cursor: pointer;
-}
-.content-wrapper div label{
-    padding: 5px;
+.product-table{
+    font-size: var(--h5-font-size);
 }
 
