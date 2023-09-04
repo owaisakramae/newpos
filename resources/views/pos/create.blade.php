@@ -6,7 +6,7 @@
 
 <div class="main-body">
       <div class="main-body-wrapper">
-        <div class="containers bg-secondary">
+        <div class="containers">
           <div class="row">
             <div class="col-lg-4 d-flex">
               <label class="fw-bold"> Location:</label>
