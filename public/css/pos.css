@@ -1,0 +1,19 @@
+.content-wrapper form input[type=search],
+.content-wrapper div select {
+   padding: 5px;
+   font-size: 14px;
+   border: 1px solid grey;
+   float: left;
+   width: 90%;
+}
+.content-wrapper form button{
+   float: left;
+   width: 10%;
+   padding: 5px;
+   font-size: 17px;
+   border: 1px solid grey;
+   cursor: pointer;
+}
+.content-wrapper div label{
+   padding: 5px;
+}
