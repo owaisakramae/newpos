@@ -64,9 +64,10 @@
               </div>
             </div>
         
-            <div class="product-table-container py-3">
-              <table class="table table-striped table-bordered table-responsive product-table">
-                <thead>
+            <div class="product-table-container table-responsive py-3">
+              <div class="scrollbar-table">
+                <table class="table table-striped table-bordered product-table">
+                <thead class="sticky-top">
                 <tr>
                 <th>#</th>
                 <th>Image</th>
@@ -83,11 +84,11 @@
             <tbody>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:80px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
-                    <ul class="pagination d-flex align-items-center">
+                    <ul class="pagination pagination-sm d-flex align-items-center">
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
                       <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
@@ -103,11 +104,11 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:80px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
-                    <ul class="pagination d-flex align-items-center">
+                    <ul class="pagination pagination-sm d-flex align-items-center">
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
                       <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
@@ -123,11 +124,11 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:80px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
-                    <ul class="pagination d-flex align-items-center">
+                    <ul class="pagination pagination-sm d-flex align-items-center">
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
                       <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
@@ -143,11 +144,11 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:80px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
-                    <ul class="pagination d-flex align-items-center">
+                    <ul class="pagination pagination-sm d-flex align-items-center">
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
                       <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
@@ -163,11 +164,11 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:80px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
-                    <ul class="pagination d-flex align-items-center">
+                    <ul class="pagination pagination-sm d-flex align-items-center">
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
                       <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
@@ -181,15 +182,105 @@
                 <td>Services</td>
                 <td><i class="bi bi-x" style="font-size: 1.5rem;"></i></td>
               </tr>
-              
+              <tr>
+                <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td>1 Million Car Perfume Fragrance Card</td>
+                <td>
+                  <nav aria-label="quantity">
+                    <ul class="pagination pagination-sm d-flex align-items-center m-0">
+                      <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
+                      <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
+                    </ul>
+                  </nav>
+                </td>
+                <td>$ 1000</td>
+                <td>225</td>
+                <td>Stock</td>
+                <td>$ 1200</td>
+                <td>Services</td>
+                <td><i class="bi bi-x" style="font-size: 1.5rem;"></i></td>
+              </tr>
+              <tr>
+                <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td>1 Million Car Perfume Fragrance Card</td>
+                <td>
+                  <nav aria-label="quantity">
+                    <ul class="pagination pagination-sm d-flex align-items-center m-0">
+                      <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-plus"></i></a></li>
+                      <li class="page-item"><a class="page-link m-0 h6" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-minus"></i></a></li>
+                    </ul>
+                  </nav>
+                </td>
+                <td>$ 1000</td>
+                <td>225</td>
+                <td>Stock</td>
+                <td>$ 1200</td>
+                <td>Services</td>
+                <td><i class="bi bi-x" style="font-size: 1.5rem;"></i></td>
+              </tr>
+          
             
 
             </tbody>
 
           </table>
+          
+              </div>
+
           </div>
+          <table class="table table-striped table-responsive">
+
+                <tfoot>
+                <tr>
+                  <td class="col">
+                    Items: 1.00
+                  </td>
+                  <td class="col">
+                    Services:0.00
+                  </td>
+                  <td class="col">
+                    Tax Amount: 0
+                  </td>
+                  <td class="col">
+                    Total: 700.00
+                  </td>
+                </tr>
+              </tfoot>
+          </table>
+          </div>
+          <div class="footer">
+            <div class="footer-wrapper d-flex justify-content-between p-3">
+              <div class="button-div ">
+                <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-square"></i> Sales Order</button>
+              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-credit-card"></i> Card</button>
+              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-cash-coin"></i> Multiple Pay</button>
+              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-cash"></i> Cash</button>
+              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-x-circle"></i> Clear</button>
+
+              <button type="button" class="btn btn-secondary btn-sm ms-4">
+                <div class="text-btn d-flex">
+                  <span class="text-start" style="color:white;">Total<br>Payable</span><p class="d-flex align-items-center ms-2" style="color: white;">$ 700.00</p>
+                </div>
+              </button>
+              </div>
+              <div class="button-div-2 d-flex align-items-center">
+                <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-clock-fill"></i> Recent Transcations</button>
+              </div>
+              
+
+
+
+
+
+
+            </div>
           </div>
         </div>
+        
       </div>
       </div>
     

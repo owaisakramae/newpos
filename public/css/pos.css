@@ -1,4 +1,23 @@
-.product-table{
+.product-table {
     font-size: var(--h5-font-size);
 }
+.scrollbar-table {
+    max-height: 60vh;
+    overflow-y: auto;
+}
 
+.scrollbar-table::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar-table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scrollbar-table::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.scrollbar-table::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
