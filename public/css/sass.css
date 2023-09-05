@@ -165,3 +165,9 @@ table.table {
     background-color: black !important;
     color: white !important;
 }
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--bs-border-color);
+    box-shadow: none;
+}
