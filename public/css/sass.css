@@ -1,93 +1,93 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
-  --header-height: 3rem;
-  /* Colors */
-  --main-color: #212529;
-  --text-color: #fff;
-  --white-color: #ffffff;
-  --white-alt: #e6e6e6;
-  --border-color: #4b545c;
-  --second-color: #c2c7d0;
-  --shadow-color: #f1f1f185;
-  /* Fonts*/
-  --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.75rem;
-  /* font width */
-  --font-medium: 500;
-  --font-semi-bold: 600;
-  /*---Margin padding */
-  --mb-1: 0.5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
-  --mb-4: 2rem;
-  --mb-5: 2.5rem;
-  --mb-6: 3rem;
-  /*----Z-index----*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-  --z-high: 9999;
+    --header-height: 3rem;
+    /* Colors */
+    --main-color: #212529;
+    --text-color: #fff;
+    --white-color: #ffffff;
+    --white-alt: #e6e6e6;
+    --border-color: #4b545c;
+    --second-color: #c2c7d0;
+    --shadow-color: #f1f1f185;
+    /* Fonts*/
+    --body-font: "Poppins", sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+    /* font width */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    /*---Margin padding */
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+    /*----Z-index----*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-high: 9999;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-size: var(--small-font-size);
-  font-weight: 400;
-  font-family: var(--body-font);
-  line-height: 28px;
-  overflow-x: hidden;
-  background: hsl(200deg 27% 98%);
+    font-size: var(--small-font-size);
+    font-weight: 400;
+    font-family: var(--body-font);
+    line-height: 28px;
+    overflow-x: hidden;
+    background: hsl(200deg 27% 98%);
 }
 
 .containers {
-  max-width: 1244px;
-  margin: 80px 20px 0px 280px;
-  transition: all 0.3s ease-out;
+    max-width: 1244px;
+    margin: 80px 20px 0px 280px;
+    transition: all 0.3s ease-out;
 }
 
 .close-container {
-  margin: 80px 20px 0px 20px;
-  max-width: 1400px;
-  transition: all 0.3s ease-out;
+    margin: 80px 20px 0px 20px;
+    max-width: 1400px;
+    transition: all 0.3s ease-out;
 }
 
 img {
-  vertical-align: middle;
-  height: auto;
+    vertical-align: middle;
+    height: auto;
 }
 
 a {
-  text-decoration: none;
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
 
 a:hover {
-  text-decoration: none;
-  color: var(--white-color);
+    text-decoration: none;
+    color: var(--white-color);
 }
 
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 button:focus {
-  outline: none;
+    outline: none;
 }
 
 /* General Style*/
@@ -102,67 +102,66 @@ ul,
 li,
 span,
 label {
-  margin: 0;
+    margin: 0;
 }
 
 ul {
-  padding: 0;
-  list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 table.table {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .di-btn {
-  color: aliceblue;
-  padding: 0.7rem var(--mb-2);
-  font-weight: 500;
-  border-radius: 3px;
-  box-shadow: 0px 6px 19px 1px #06041d4a;
+    color: aliceblue;
+    padding: 0.7rem var(--mb-2);
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 0px 6px 19px 1px #06041d4a;
 }
 
 .purple-gradient {
-  background: var(--main-gradient);
+    background: var(--main-gradient);
 }
 
 .bg-cla {
-  background: var(--main-color);
+    background: var(--main-color);
 }
 
 .bg-clc {
-  background: linear-gradient(
-    121deg,
-    rgb(92 26 195) 25%,
-    rgb(136 25 206 / 95%) 100%
-  );
+    background: linear-gradient(
+        121deg,
+        rgb(92 26 195) 25%,
+        rgb(136 25 206 / 95%) 100%
+    );
 }
 
 .bg-clc {
-  background: linear-gradient(
-    121deg,
-    rgb(26 179 195) 25%,
-    rgb(25 97 206 / 95%) 100%
-  );
+    background: linear-gradient(
+        121deg,
+        rgb(26 179 195) 25%,
+        rgb(25 97 206 / 95%) 100%
+    );
 }
 
 .bg-clc {
-  background: linear-gradient(
-    121deg,
-    rgb(232 202 53) 25%,
-    rgb(206 125 25 / 95%) 100%
-  );
+    background: linear-gradient(
+        121deg,
+        rgb(232 202 53) 25%,
+        rgb(206 125 25 / 95%) 100%
+    );
 }
 /* Remove focus outline */
 .form-select:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border-color: inherit !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: inherit !important;
 }
 
 /* Change the background color of options on hover to black */
 .form-select option:hover {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
-

@@ -25,6 +25,9 @@
       rel="stylesheet"
     />
 
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.css" rel="stylesheet">
+    
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- DataTables JS -->
     <script
@@ -38,11 +41,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
 
+    
+    
     <link rel="stylesheet" href="{{asset('css/sass.css')}}" />
     <link rel="stylesheet" href="{{asset('css/layers.css')}}" />
     <link rel="stylesheet" href="{{asset('css/product.css')}}" />
     <link rel="stylesheet" href="{{asset('css/pos.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/product-add.css')}}" />
+
 
         <title>App Name - @yield('title')</title>
     </head>

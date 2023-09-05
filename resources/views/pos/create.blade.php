@@ -84,7 +84,7 @@
             <tbody>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
@@ -104,7 +104,7 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
@@ -124,7 +124,7 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
@@ -144,7 +144,7 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
@@ -164,7 +164,7 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
@@ -184,7 +184,7 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
@@ -204,7 +204,7 @@
               </tr>
               <tr>
                 <td> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:35px; max-height:100%;"></td>
+                <td class="d-flex justify-content-center"> <img src="{{asset('assets/img/car-product.jpg')}}" alt="" style="width:50px; max-height:100%;"></td>
                 <td>1 Million Car Perfume Fragrance Card</td>
                 <td>
                   <nav aria-label="quantity">
