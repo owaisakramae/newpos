@@ -348,7 +348,12 @@
                     <a href="{{url('pos/create')}}"
                       ><i class="bi bi-receipt-cutoff"></i> POS</a
                     >
-                  </li>
+              </li>
+              <li>
+                    <a href="{{url('pos')}}"
+                      ><i class="bi bi-receipt-cutoff"></i> POS</a
+                    >
+              </li>
             </ul>
           </nav>
         </div>

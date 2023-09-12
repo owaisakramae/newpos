@@ -23,7 +23,7 @@
           <div class="content-wrapper bg-white p-3">
             <div class="row pb-2">
               <div class="col-lg-4">
-                <div class="input-group">
+                <div class="input-group mb-sm-0 mb-2">
                   <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
                   <input type="text" class="form-control form-control-sm" placeholder="Search Customer Name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
@@ -222,9 +222,6 @@
                 <td>Services</td>
                 <td><i class="bi bi-x" style="font-size: 1.5rem;"></i></td>
               </tr>
-          
-            
-
             </tbody>
 
           </table>
@@ -232,9 +229,9 @@
               </div>
 
           </div>
-          <table class="table table-striped table-responsive">
-
-                <tfoot>
+          <div class="table-responsive">
+            <table class="table table-striped ">
+              <tfoot>
                 <tr>
                   <td class="col">
                     Items: 1.00
@@ -250,33 +247,26 @@
                   </td>
                 </tr>
               </tfoot>
-          </table>
+            </table>
           </div>
-          <div class="footer">
-            <div class="footer-wrapper d-flex justify-content-between p-3">
+          <div class="footer row">
+            <div class="footer-wrapper d-flex justify-content-between p-3 col">
               <div class="button-div ">
-                <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-pencil-square"></i> Sales Order</button>
-              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-credit-card"></i> Card</button>
-              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-cash-coin"></i> Multiple Pay</button>
-              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-cash"></i> Cash</button>
-              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-x-circle"></i> Clear</button>
+                <button type="button" class="btn  btn-sm m-lg-0 m-2"><i class="bi bi-pencil-square"></i> Sales Order</button>
+                <button type="button" class="btn  btn-sm m-lg-0 m-2"><i class="bi bi-credit-card"></i> Card</button>
+                <button type="button" class="btn  btn-sm m-lg-0 m-2"><i class="bi bi-cash-coin"></i> Multiple Pay</button>
+                <button type="button" class="btn  btn-sm m-lg-0 m-2"><i class="bi bi-cash"></i> Cash</button>
+                <button type="button" class="btn  btn-sm m-lg-0 m-2"><i class="bi bi-x-circle"></i> Clear</button>
 
-              <button type="button" class="btn btn-secondary btn-sm ms-4">
-                <div class="text-btn d-flex">
-                  <span class="text-start" style="color:white;">Total<br>Payable</span><p class="d-flex align-items-center ms-2" style="color: white;">$ 700.00</p>
-                </div>
-              </button>
+                <button type="button" class="btn  btn-sm ms-lg-4 m-lg-0 m-2">
+                  <div class="text-btn d-flex">
+                    <span class="text-start">Total<br>Payable</span><p class="d-flex align-items-center ms-2">$ 700.00</p>
+                  </div>
+                </button>
               </div>
-              <div class="button-div-2 d-flex align-items-center">
-                <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-clock-fill"></i> Recent Transcations</button>
+              <div class="button-div-2  d-flex align-items-center ">
+                <button type="button" class="btn  btn-sm"><i class="bi bi-clock-fill"></i> Recent Transcations</button>
               </div>
-              
-
-
-
-
-
-
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,9 +27,15 @@
     />
 
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.css" rel="stylesheet">
+   
     
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
     <!-- DataTables JS -->
     <script
       type="text/javascript"
@@ -45,6 +52,8 @@
     
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
 
+
+
     
     
     <link rel="stylesheet" href="{{asset('css/sass.css')}}" />
@@ -52,6 +61,7 @@
     <link rel="stylesheet" href="{{asset('css/product.css')}}" />
     <link rel="stylesheet" href="{{asset('css/pos.css')}}" />
     <link rel="stylesheet" href="{{asset('css/product-add.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/index-pos.css')}}" />
 
 
         <title>App Name - @yield('title')</title>

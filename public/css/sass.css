@@ -9,13 +9,12 @@
 :root {
     --header-height: 3rem;
     /* Colors */
-    --main-color: #212529;
+    --main-color: #000;
     --text-color: #fff;
-    --white-color: #ffffff;
-    --white-alt: #e6e6e6;
-    --border-color: #4b545c;
+    --primary-color: #ff0000;
+    --border-color: #9999;
     --second-color: #c2c7d0;
-    --shadow-color: #f1f1f185;
+    --shadow-color: #333333;
     /* Fonts*/
     --body-font: "Poppins", sans-serif;
     --biggest-font-size: 2.25rem;
@@ -114,45 +113,6 @@ table.table {
     white-space: nowrap;
 }
 
-.di-btn {
-    color: aliceblue;
-    padding: 0.7rem var(--mb-2);
-    font-weight: 500;
-    border-radius: 3px;
-    box-shadow: 0px 6px 19px 1px #06041d4a;
-}
-
-.purple-gradient {
-    background: var(--main-gradient);
-}
-
-.bg-cla {
-    background: var(--main-color);
-}
-
-.bg-clc {
-    background: linear-gradient(
-        121deg,
-        rgb(92 26 195) 25%,
-        rgb(136 25 206 / 95%) 100%
-    );
-}
-
-.bg-clc {
-    background: linear-gradient(
-        121deg,
-        rgb(26 179 195) 25%,
-        rgb(25 97 206 / 95%) 100%
-    );
-}
-
-.bg-clc {
-    background: linear-gradient(
-        121deg,
-        rgb(232 202 53) 25%,
-        rgb(206 125 25 / 95%) 100%
-    );
-}
 /* Remove focus outline */
 .form-select:focus {
     outline: none !important;
@@ -171,3 +131,16 @@ table.table {
     border-color: var(--bs-border-color);
     box-shadow: none;
 }
+
+/* Button with shadow on hover */
+.btn {
+    background-color: black;
+    color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 6px 6px 12px #333333; /* Adjust values as needed */
+}
+
+/* Add this CSS to your stylesheet */

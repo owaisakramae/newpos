@@ -1,7 +1,7 @@
 /*Header*/
 .header-container {
-    background: var(--white-color);
-    box-shadow: -1px 4px 20px 1px var(--shadow-color);
+    background: var(--text-color);
+    box-shadow: -1px 4px 20px 1px var(--border-color);
 }
 header.header {
     padding: 12px;
@@ -19,12 +19,12 @@ img.icon {
 }
 .nav-link.user p {
     background: var(--main-color);
-    color: var(--white-color);
+    color: var(--text-color);
 }
 p.count {
     top: 0;
     font-size: 10px;
-    color: var(--white-color);
+    color: var(--text-color);
     height: 13px;
     width: 13px;
     border-radius: 50%;
@@ -41,7 +41,7 @@ p.count {
 }
 a.sidebarCollapse {
     padding-left: 14px;
-    color: #999;
+    color: var(--shadow-color);
     font-size: var(--h2-font-size);
 }
 .dropdown-menu {
@@ -69,7 +69,7 @@ img.user-note {
     font-size: var(--small-font-size);
     color: var(--main-color);
     width: 100%;
-    white-space: initial;
+
     line-height: 13px;
     border-bottom: 1px solid #ddd;
     align-items: center;
@@ -86,7 +86,7 @@ img.user-note {
     height: 18px;
     border-radius: 50%;
     background: var(--main-color);
-    color: var(--white-color);
+    color: var(--text-color);
 }
 p.note-name {
     font-size: var(--small-font-size);
@@ -116,7 +116,7 @@ p.user-role {
 .media {
     background: var(--main-color);
     padding-top: 10px;
-    color: var(--white-color);
+    color: var(--text-color);
 }
 #offcanvasMenu {
     padding-left: 10px;
@@ -172,11 +172,9 @@ nav.animated {
 .offcanvas-body::-webkit-scrollbar-thumb {
     width: 0.5rem;
     border-radius: 2px;
-    background: var(--white-color);
+    background: var(--text-color);
 }
-.btn-toggle {
-    color: var(--main-color);
-}
+
 .btn-toggle:hover {
     border: none;
 }
@@ -205,5 +203,5 @@ nav ul li ul li a {
     margin-left: 95px;
 }
 .offcanvas-header a {
-    color: var(--white-color);
+    color: var(--text-color);
 }

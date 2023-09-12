@@ -11,13 +11,13 @@
 }
 
 .scrollbar-table::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--text-color);
 }
 
 .scrollbar-table::-webkit-scrollbar-thumb {
-    background: #888;
+    background: var(--border-color);
 }
 
 .scrollbar-table::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: var(--main-color);
 }

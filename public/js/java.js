@@ -4,26 +4,36 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select the menu toggle button
     var menuToggle = document.getElementById("menuToggle");
 
+    // Add the 'open' class to the offcanvas menu and the toggle button
+    offcanvasMenu.classList.remove("open");
+    menuToggle.classList.add("open");
+
     // Add an event listener to toggle or close the offcanvas menu when the button is clicked
     menuToggle.addEventListener("click", function () {
         offcanvasMenu.classList.toggle("open");
         menuToggle.classList.toggle("open");
 
-        var containers = document.querySelectorAll(".containers");
-
         if (offcanvasMenu.classList.contains("open")) {
-            // If the offcanvas menu is open, add 'close-container' class to all '.containers' elements
+            // If the offcanvas menu is open, remove 'close-container' class from all '.containers' elements
             containers.forEach(function (container) {
                 container.classList.remove("close-container");
             });
             menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
         } else {
-            // If the offcanvas menu is closed, remove 'close-container' class from all '.containers' elements
+            // If the offcanvas menu is closed, add 'close-container' class to all '.containers' elements
             containers.forEach(function (container) {
                 container.classList.add("close-container");
             });
             menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
         }
+    });
+
+    // Select the containers
+    var containers = document.querySelectorAll(".containers");
+
+    // Add the 'close-container' class to all '.containers' elements
+    containers.forEach(function (container) {
+        container.classList.add("close-container");
     });
 
     $(".sub-menu ul").hide();
@@ -60,4 +70,20 @@ $(document).ready(function () {
             ["view", ["fullscreen", "codeview"]],
         ],
     });
+});
+
+$(function () {
+    $('input[name="daterange"]').daterangepicker(
+        {
+            opens: "left",
+        },
+        function (start, end, label) {
+            console.log(
+                "A new date selection was made: " +
+                    start.format("YYYY-MM-DD") +
+                    " to " +
+                    end.format("YYYY-MM-DD")
+            );
+        }
+    );
 });
