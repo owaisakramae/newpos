@@ -22,13 +22,13 @@
           </div>
           <div class="content-wrapper bg-white p-3">
             <div class="row pb-2">
-              <div class="col-lg-4">
-                <div class="input-group mb-sm-0 mb-2">
+              <div class="col-lg-4 col-md-4">
+                <div class="input-group  mb-2">
                   <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
                   <input type="text" class="form-control form-control-sm" placeholder="Search Customer Name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
               </div>
-              <div class="col-lg-8">
+              <div class="col-lg-8 col-md-8">
                 <div class="input-group">
                   <span class="input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
                   <input type="text" class="form-control form-control-sm" placeholder="Search Product Name" aria-label="Productname" aria-describedby="basic-addon2">
@@ -36,7 +36,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col-12 col-lg-4 col-md-4">
                 <div class="form-group">
                   <label class="fw-bold">Comission Agent</label>
                   <select class="form-select form-select-sm" aria-label="Default select example">
@@ -47,11 +47,11 @@
                   </select>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-lg-4 col-md-4">
                   <label for="" class="fw-bold form-label m-0">Remarks</label>
                   <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Remarks">
               </div>
-              <div class="col">
+              <div class="col-12 col-lg-4 col-md-4">
                 <div class="form-group">
                 <label class="fw-bold">Select Order Type</label>
                 <select class="form-select form-select-sm" aria-label="Default select example">

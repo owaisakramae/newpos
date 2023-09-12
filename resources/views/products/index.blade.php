@@ -37,7 +37,7 @@
                     id="collapseOne"
                   >
                     <div class="row p-3">
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold"> Product Type:</label>
                         <select
                           class="form-select rounded-0"
@@ -49,7 +49,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold"> Category:</label>
                         <select
                           class="form-select rounded-0"
@@ -61,7 +61,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold"> Sub Category:</label>
                         <select
                           class="form-select rounded-0"
@@ -73,7 +73,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold">Unit:</label>
                         <select
                           class="form-select rounded-0"
@@ -87,7 +87,7 @@
                       </div>
                     </div>
                     <div class="row p-3">
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold"> Tax:</label>
                         <select
                           class="form-select rounded-0"
@@ -99,7 +99,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold"> Brand:</label>
                         <select
                           class="form-select rounded-0"
@@ -111,7 +111,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold"> Business Location:</label>
                         <select
                           class="form-select rounded-0"
@@ -123,7 +123,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3 col-md-4 col-6">
+                      <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <label class="fw-bold">Unit:</label>
                         <select
                           class="form-select rounded-0"

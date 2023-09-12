@@ -14,15 +14,15 @@
             </div>
             <div class="text-wrapper">
               <div class="row">
-                <div class="col">
+                <div class="col-lg-4 col-12">
                   <label for="" class="fw-bold form-label m-0">Product Name:</label>
                   <input required type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Product Name">
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-12">
                   <label for="" class="fw-bold form-label m-0">Slug:</label>
                   <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Slug (Optional)">
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-12">
                   <div class="form-group">
                     <label class="fw-bold">Barcode Type:</label>
                     <select class="form-select form-select-sm" aria-label="Default select example" required>
@@ -35,17 +35,17 @@
                 </div>
               </div>
               <div class="row">
-                  <div class="col">
+                  <div class="col-6">
                   <label for="" class="fw-bold form-label m-0">Attributes:</label>
                   <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="Attributes (Optional)">
                   </div>
-                  <div class="col">
+                  <div class="col-6 ">
                   <label for="" class="fw-bold form-label m-0">PCT code:</label>
                   <input type="text" class="form-control form-control-sm" id="formGroupExampleInput" placeholder="PCT Code (Optional)">
                   </div>
               </div>
               <div class="row">
-                <div class="col">
+                <div class="col-4 col-md-6 col-sm-6">
                   <label for="" class="fw-bold form-label m-0">Unit:</label>  
                   <div class="input-group">
                   <select class="form-select form-select-sm" aria-label="Default select example" required>

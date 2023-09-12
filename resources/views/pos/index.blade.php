@@ -37,7 +37,7 @@
                     id="collapseOne"
                   >
                     <div class="row p-3">
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6 ">
                         <label class="fw-bold"> Business Location:</label>
                         <select
                           class="form-select rounded-0"
@@ -49,7 +49,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold"> Customer:</label>
                         <select
                           class="form-select rounded-0"
@@ -61,7 +61,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold">Payment Status:</label>
                         <select
                           class="form-select rounded-0"
@@ -73,14 +73,14 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold">Date Range:</label>
                         <input class="form-select rounded-0" type="text" name="daterange" value="01/01/2023 - 02/15/2023" />
                       
                       </div>
                     </div>
                     <div class="row p-3">
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold">User:</label>
                         <select
                           class="form-select rounded-0"
@@ -92,7 +92,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold">Sales Comission Agent:</label>
                         <select
                           class="form-select rounded-0"
@@ -104,7 +104,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold">Shipping Status:</label>
                         <select
                           class="form-select rounded-0"
@@ -116,7 +116,7 @@
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="col-lg-3">
+                      <div class="col-lg-3 col-12 col-md-6 col-sm-6">
                         <label class="fw-bold">Order Types:</label>
                         <select
                           class="form-select rounded-0"
